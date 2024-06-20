@@ -1,0 +1,19 @@
+body {
+    background-color: darkcyan;
+    color: white;
+}
+
+.kotak-celcius {
+    width: 190px;
+    height: 30px;
+}
+
+.kotak-farenheit {
+    width: 190px;
+    height: 30px;
+}
+
+.link {
+    color: white;
+
+}

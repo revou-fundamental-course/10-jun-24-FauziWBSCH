@@ -10,30 +10,32 @@
 
     <div>
         <p>
-            Masukan suhu derajat Celsius (&deg;C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan
-            hasil konversi dalam bentuk farenheit (&deg;F)
-        </p>
+            WEBSITE KONVERSI SUHU
     </div>
 
     <hr>
 
     <div>
-        <p>Celcius (&deg;C) :</p>
-        <input type="text" id="Celcius" placeholder="Celcius" name="C" value=""/>
+        <p>
+            Masukan suhu derajat Celsius (&deg;C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan
+            hasil konversi dalam bentuk farenheit (&deg;F)
+        </p>
+        <p style="font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><strong>Celcius (&deg;C) :</strong></p>
+        <input type="text" id="celcius" placeholder="Celcius" name="C" value="" class="kotak-celcius"/>
         <p>
             <button id="convert">Convert</button>
             <button id="clear">Reset</button>
-            <button id="repeat">Reverse</button>
         </p>
 
     </div>
 
     <div>
-        <p>Farenheit (&deg;F) :</p>
-        <input type="text" id="Farenheit" placeholder="Farenheit" name="F" value=""/>
+        <p style="font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><strong>Farenheit (&deg;F) :</strong></p>
+        <input type="text" id="fahrenheit" placeholder="Farenheit" name="F" value="" class="kotak-farenheit"/>
     </div>
 
-        <p><a href="#">Farenheit ke Celcius</a></p>
+    
+    <br>
    
     <div>
         <h3>Cara Konversi Dari Celcius (&deg;C) ke Farenheit (&deg;F)</h3>
@@ -43,9 +45,15 @@
         <p>atau</p>
         <p>S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub>x 1.8)+32</p>
     </div>
+
+    <br>
+
+    <footer>
+        <center><p><em>Created By FauziWBS</em></p></center>
+    </footer>
     
 
+<script src="js/script.js"></script>
 
-    
 </body>
 </html>
